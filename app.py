@@ -344,11 +344,11 @@ def start_test(phase):
     if phase == 0:
         return 'When the test starts, you will try to accomplish the tasks that will be posted here.'
     if phase == 1:
-        return 'Read the book titled "The Prince".'
+        return 'Test 1: Read the book titled "The Prince".'
     if phase == 2:
-        return 'Read the book titled "Uzumaki".'
+        return 'Test 2: Read the book titled "Uzumaki".'
     if phase == 3:
-        return 'Send an e-mail to the owners of the eLibrary.'
+        return 'Test 3: Send an e-mail to the owners of the eLibrary.'
     if phase == 4:
         return 'Test completed! Please press the submit button'
 
