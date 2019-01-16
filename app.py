@@ -39,11 +39,11 @@ app.layout = html.Div(children=[
                 html.Div(id='books_section', children=[
                     html.Button(id='books', children='Books', n_clicks=0),
                     html.Br(),
-                    html.Button(id='lord_of_the_flies', children='Lord Of The Flies', n_clicks=0),
-                    html.Button(id='uzumaki', children='Uzumaki', n_clicks=0),
+                    html.Button(id='lord_of_the_flies', children='Lord Of The Flies', n_clicks=0, style={'display': 'none'}),
+                    html.Button(id='uzumaki', children='Uzumaki', n_clicks=0, style={'display': 'none'}),
                     html.P(id='uzumaki_phase', children=0, style={'display': 'none'}),  # Uzumaki state
-                    html.Button(id='the_art_of_war', children='The Art Of War', n_clicks=0),
-                    html.Button(id='the_prince', children='The Prince', n_clicks=0),
+                    html.Button(id='the_art_of_war', children='The Art Of War', n_clicks=0, style={'display': 'none'}),
+                    html.Button(id='the_prince', children='The Prince', n_clicks=0, style={'display': 'none'}),
                     html.P(id='the_prince_phase', children=0, style={'display': 'none'})  # The Prince state
                 ]),
                 html.Div(id='contact_section', children=[
